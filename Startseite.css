@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+
+
+body{
+        padding: 0;
+        margin: 0;
+
+    background-image: url("https://imgr1.auto-motor-und-sport.de/Parc-Ferm-Formel-1-GP-Saudi-Arabien-2022-react169Big-99d85a63-1885893.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-color: #cccccc;
+}
+
+.redbar{
+    background-color: rgb(204, 0, 0);
+    overflow: hidden;
+    padding: 1%;
+}
+
+
+
+.vehicles{   
+    transition: transform .2s; /* Animation */
+    border:6px solid rgb(56, 8, 18);
+    border-radius: 30px; /* Border radius rundet die Ecken des Referenzierten bildes ab */   
+    margin-left: 20px;
+}
+
+.vehicles:hover {
+    transform: scale(1.1); /* vergrößert das bild wenn man mit der maus drüber hovert */
+  
+  }
+
+.img{
+    float:left;
+}
+.text1{
+    float:right;
+}
+
+.title{
+    color: white;
+        font-family:"Poppins",sans-serif;
+        font-size: 35px;
+        
+    
+}
+
+.main_title{
+    color: white;
+    font-family:"Poppins", sans-serif;
+    font-size: 25px;
+}
+
+.main_page{
+    color: white;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 20px;
+}
+
+.bg {
+
+        height: 100vh;
+        background: linear-gradient(115deg,rgba(130, 10, 10, 1), rgba(95,6, 6, 1), rgba(0,0,0,0) 90%);
+        background-attachment:fixed;
+        }
+
+
+           
